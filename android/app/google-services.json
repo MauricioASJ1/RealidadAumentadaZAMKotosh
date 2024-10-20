@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784295138091",
+    "project_id": "mauricio-parkport-dev",
+    "storage_bucket": "mauricio-parkport-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784295138091:android:3f381db53230bf29306b6e",
+        "android_client_info": {
+          "package_name": "com.example.zamKotosh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-vKNOtTDK4jRKaB1-xTUs_SnCEKToGSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
