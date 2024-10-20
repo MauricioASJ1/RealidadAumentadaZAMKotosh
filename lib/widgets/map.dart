@@ -204,7 +204,7 @@ class MapState extends State<Map> {
   Future<List<LatLng>> _getRoutePoints(
       LatLng origin, LatLng destination) async {
     PolylinePoints polylinePoints = PolylinePoints();
-    String googleApiKey = 'AIzaSyDE3eBhGKWwMHdGpOtM00EM7eAP_p6SkOo';
+    String googleApiKey = '';
 
     PolylineRequest request = PolylineRequest(
       origin: PointLatLng(origin.latitude, origin.longitude),
