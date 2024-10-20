@@ -217,6 +217,7 @@ class AuthState extends ChangeNotifier {
               'email': email, // Guardamos el email generado
               'age': userAge?.toString(), // Conversión de int a String
               'dateJoined': DateTime.now(),
+              'language': 'spanish',
             });
             print('Usuario creado exitosamente en Firestore');
           }

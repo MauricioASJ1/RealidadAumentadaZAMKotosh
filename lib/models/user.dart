@@ -5,6 +5,7 @@ class PPUser {
   String lowercaseName;
   String age;
   DateTime dateJoined;
+  String language;
   List<Map<String, dynamic>> interestPoints;
   List<String> notifs;
 
@@ -17,6 +18,7 @@ class PPUser {
     required this.dateJoined,
     required this.interestPoints,
     required this.notifs,
+    required this.language,
   });
 
   // Named constructor for when getting JSON object from firebase
@@ -31,6 +33,7 @@ class PPUser {
         interestPoints:
             List<Map<String, dynamic>>.from(map['pointsOfInterest'] ?? []),
         notifs: List<String>.from(map['notifs']),
+        language: map['language'],
       );
 
   // Instance method that returns Map<String, dynamic> so can be stored in firestore
@@ -42,5 +45,6 @@ class PPUser {
         "dateJoined": dateJoined,
         "interestPoints": interestPoints,
         "notifs": notifs,
+        "language": language,
       };
 }

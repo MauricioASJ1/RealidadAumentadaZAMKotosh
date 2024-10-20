@@ -9,7 +9,8 @@ class AppState extends ChangeNotifier {
       age: '',
       dateJoined: DateTime.now(),
       interestPoints: [],
-      notifs: []);
+      notifs: [],
+      language: 'spanish');
   PPUser get currentUser => _currentUser;
   set currentUser(PPUser value) {
     _currentUser = value;
